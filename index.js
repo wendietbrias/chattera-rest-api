@@ -27,7 +27,7 @@ const __dirname = path.dirname(__filename);
 //setup cors
 
 app.use(cors({
-    origin:"https://chatteras.netlify.app",
+    origin:"*",
     methods:['GET', 'POST','DELETE','PATCH', 'PUT'],
     allowedHeaders:"*"
 }));
